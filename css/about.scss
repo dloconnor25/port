@@ -1,0 +1,134 @@
+$header: 'Josefin Sans', sans-serif;
+$title: 'Raleway', sans-serif;
+$body: 'Raleway Dots', cursive;
+
+$teal: #0D5656;
+$pink: #ff19c2;
+$yellow: #AAB209;
+
+h1 {
+  font-size: 60pt;
+  text-transform: uppercase;
+  font-family: $header;
+}
+
+h2 {
+  font-size: 48pt;
+  text-transform: uppercase;
+  font-family: $header;
+}
+
+p {
+  font-size: 21pt;
+  font-family: $header;
+}
+
+.border {
+  margin-left: 10%;
+  margin-right: 10%;
+  box-sizing: border-box;
+}
+* {
+  margin: 0px;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+ top: 50%;
+ transform: translateY(-50%);
+}
+li {
+  display: inline-block;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  margin: 15px;
+}
+a {
+  padding: 15pt;
+  text-transform: uppercase;
+  font-family: $header;
+  font-size: 16pt;
+}
+
+nav {
+  text-align: center;
+  height: 180px;
+  padding-bottom: 1%;
+  // border-bottom: 2px solid $yellow;
+}
+.left {
+  float: left;
+  text-align: center;
+  padding-left: 15%;
+}
+.right {
+  float: right;
+  text-align: center;
+  padding-right: 15%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: $yellow;
+}
+
+// BODY CONTENT
+
+.hero {
+  margin-top: 0;
+  clear: both;
+  height: 900px;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 3px solid $yellow;
+  margin-bottom: 2%;
+}
+
+.hero-text h1 {
+  font-family: $header;
+  font-size: 60pt;
+  color: $yellow;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 2%;
+}
+
+.hero-text p {
+  font-family: $header;
+  font-size: 24pt;
+  color: black;
+  text-align: left;
+  float: right;
+  width: 55%;
+  padding-right: 2%;
+}
+
+.hero img {
+  clear: both;
+  height: 450px;
+  width: auto;
+}
+
+.icon {
+  display: block;
+  margin: auto;
+  width: 41%;
+  color: $teal;
+  margin-top: 5%;
+}
+
+a{
+  color: $teal;
+}
